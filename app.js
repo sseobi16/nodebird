@@ -69,5 +69,5 @@ app.use((err, req, res, next) => {
     res.render('error'); //  넌적스를 통해 자동으로 views 파일의 error 파일로 넘겨준다.
 });
 
-
+// test commit을 위한 주석 처리
 module.exports = app;
